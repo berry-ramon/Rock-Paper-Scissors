@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock Paper Scissors Game Update</title>
+  </head>
+  <body>
+    <div class="done">
+      <p class="doneTxt">Reset Successfully!</p>
+    </div>
+    <div class="container">
+      <h1>Rock Paper Scissors Game</h1>
+      <div class="buttons">
+        <button id="rock">
+          <img src="images/Rock.png" alt="Rock" class="images" />
+        </button>
+        <button id="paper">
+          <img src="images/Paper.png" alt="Paper" class="images" />
+        </button>
+        <button id="scissors">
+          <img src="images/Scissors.png" alt="Scissors" class="img3 images" />
+        </button>
+      </div>
+      <div class="show">
+        <div id="expected">
+          <div class="display">
+            <div class="results">
+              <span id="result">You Win!</span>
+            </div>
+            <div class="allDisplays">
+              <span id="you"></span>
+              <span id="computer"></span>
+            </div>
+          </div>
+        </div>
+        <div class="finalResults">
+          <span id="wins">Wins: 0</span>
+          <span id="losses">Losses: 0</span>
+          <span id="ties">Ties: 0</span>
+        </div>
+      </div>
+      <div class="reseter">
+        <button class="reseting" id="reset">Reset</button>
+        <button id="autoPlay" class="auto">Auto Play</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
