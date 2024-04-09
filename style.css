@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(45deg, #045f58, #034903);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.done{
+  border: 1px white solid;
+  height: 50px;
+  width: 300px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  text-shadow: 3px 3px 1px #002c2a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: black;
+  position: absolute;
+  top: -100px;
+  transition: 2s;
+}
+.container {
+  text-align: center;
+  border: solid 1px white;
+  height: auto;
+  width: 350px;
+  background-color: #098676;
+  border-radius: 20px;
+}
+h1 {
+  color: white;
+  text-shadow:
+    2px 2px 2px black,
+    -2px -2px 2px #1d1c1c;
+  box-shadow: 0px 2px 2px #494545;
+}
+button{
+  background: transparent;
+  border: none;
+}
+.images{
+  height: 80px;
+  width: 80px;
+  padding:10px;
+  border: solid black 1px;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #000000;
+  transition: .5s;
+}
+.images:active{
+  background-color: #04ff04;
+  transform: rotateZ(-90deg);
+  
+}
+.images:hover{
+  border: white solid 1px
+}
+.img3{
+  margin-left: 10px;
+}
+.reseting{
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 10px 10px 20px 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+}
+.show{
+  transition: 2s;
+}
+.allDisplays{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline-flex;
+  font-weight: bold;
+
+}
+.display {
+  text-align: center;
+  display: none;
+}
+.imgs{
+  margin: 0 10px 0 10px;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  padding:5px;
+  border: solid black 1px;
+  border-radius: 50%;
+  background-color: #000000;
+  transition: .1s;
+}
+#you,
+#computer {
+  font-size: 18px;
+  color: white;
+  margin: 5px 50px 10px 30px;
+  font-size: x-large;
+}
+#computer {
+  color: #e5ff4f;
+}
+.results {
+  font-size: 30px;
+  color: #e04000;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px white;
+  margin-bottom: 5px;
+}
+.finalResults{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#wins, #losses, #ties, #reset {
+    margin:10px 10px;
+}
+#wins{
+    color: #0aff0a;
+}
+#losses{
+    color: red;
+}
+#ties{
+    color: yellow;
+}
+.reseter{
+  display: inline-block;
+}
+#reset{
+  color: white;
+  background-color: red;
+}
+#autoPlay{
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: blue;
+  color: white;
+}
+#autoPlay:active {
+  background-color: #000029;
+  border: 1px solid white;
+}
+#reset:active {
+  box-shadow:
+    1px 1px 5px #c7c5c5 inset,
+    -1px -1px 5px #c7c7c7 inset,
+    -1px 1px 5px #ffeded inset,
+    1px -1px 5px #fafafa inset;
+    background-color: #970000;
+    transition: .1s;
+}
